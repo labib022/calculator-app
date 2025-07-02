@@ -10,42 +10,42 @@
     <div class="calculatorBody">
       <table>
         <tr>
-          <td><input type="text" id="MyResult" /></td>
+          <td colspan="4"><input type="text" id="MyResult" /></td>
         </tr>
 
         <tr>
           <td><input type="button" value="C" onclick="DeletMe()" /></td>
-          <td><input type="text" value="(" onclick="calculator()" /></td>
-          <td><input type="text" value=")" onclick="calculator()" /></td>
-          <td><input type="text" value="" onclick="calculator()" /></td>
+          <td><input type="button" value="(" onclick="calculator('(')" /></td>
+          <td><input type="button" value=")" onclick="calculator(')')" /></td>
+          <td><input type="button" value="" onclick="calculator()" /></td>
         </tr>
 
         <tr>
-          <td><input type="button" value="7" onclick="DeletMe()" /></td>
-          <td><input type="text" value="8" onclick="calculator()" /></td>
-          <td><input type="text" value="9" onclick="calculator()" /></td>
-          <td><input type="text" value="+" onclick="calculator()" /></td>
+          <td><input type="button" value="7" onclick="calculator('7')" /></td>
+          <td><input type="button" value="8" onclick="calculator('8')" /></td>
+          <td><input type="button" value="9" onclick="calculator('9')" /></td>
+          <td><input type="button" value="+" onclick="calculator('+')" /></td>
         </tr>
 
         <tr>
-          <td><input type="button" value="4" onclick="DeletMe()" /></td>
-          <td><input type="text" value="5" onclick="calculator()" /></td>
-          <td><input type="text" value="6" onclick="calculator()" /></td>
-          <td><input type="text" value="-" onclick="calculator()" /></td>
+          <td><input type="button" value="4" onclick="calculator('4')" /></td>
+          <td><input type="button" value="5" onclick="calculator('5')" /></td>
+          <td><input type="button" value="6" onclick="calculator('6')" /></td>
+          <td><input type="button" value="-" onclick="calculator('-')" /></td>
         </tr>
 
         <tr>
-          <td><input type="button" value="1" onclick="DeletMe()" /></td>
-          <td><input type="text" value="2" onclick="calculator()" /></td>
-          <td><input type="text" value="3" onclick="calculator()" /></td>
-          <td><input type="text" value="*" onclick="calculator()" /></td>
+          <td><input type="button" value="1" onclick="calculator('1')" /></td>
+          <td><input type="button" value="2" onclick="calculator('2')" /></td>
+          <td><input type="button" value="3" onclick="calculator('3')" /></td>
+          <td><input type="button" value="*" onclick="calculator('*')" /></td>
         </tr>
 
         <tr>
-          <td><input type="button" value="0" onclick="DeletMe()" /></td>
-          <td><input type="text" value="." onclick="calculator()" /></td>
-          <td><input type="text" value="/" onclick="calculator()" /></td>
-          <td><input type="text" value="=" onclick="Answer()" /></td>
+          <td><input type="button" value="0" onclick="calculator('0')" /></td>
+          <td><input type="button" value="." onclick="calculator('.')" /></td>
+          <td><input type="button" value="/" onclick="calculator('/')" /></td>
+          <td><input type="button" value="=" onclick="Answer()" /></td>
         </tr>
       </table>
     </div>
