@@ -4,6 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator App</title>
+    <link rel="stylesheet" href="cal.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="calculatorBody">
+      <table>
+        <tr>
+          <td><input type="text" id="MyResult" /></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" value="C" onclick="DeletMe()" /></td>
+          <td><input type="text" value="(" onclick="calculator()" /></td>
+          <td><input type="text" value=")" onclick="calculator()" /></td>
+          <td><input type="text" value="" onclick="calculator()" /></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" value="7" onclick="DeletMe()" /></td>
+          <td><input type="text" value="8" onclick="calculator()" /></td>
+          <td><input type="text" value="9" onclick="calculator()" /></td>
+          <td><input type="text" value="+" onclick="calculator()" /></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" value="4" onclick="DeletMe()" /></td>
+          <td><input type="text" value="5" onclick="calculator()" /></td>
+          <td><input type="text" value="6" onclick="calculator()" /></td>
+          <td><input type="text" value="-" onclick="calculator()" /></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" value="1" onclick="DeletMe()" /></td>
+          <td><input type="text" value="2" onclick="calculator()" /></td>
+          <td><input type="text" value="3" onclick="calculator()" /></td>
+          <td><input type="text" value="*" onclick="calculator()" /></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" value="0" onclick="DeletMe()" /></td>
+          <td><input type="text" value="." onclick="calculator()" /></td>
+          <td><input type="text" value="/" onclick="calculator()" /></td>
+          <td><input type="text" value="=" onclick="Answer()" /></td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="cal.js"></script>
+  </body>
 </html>
